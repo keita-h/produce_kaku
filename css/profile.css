@@ -1,0 +1,29 @@
+#company_info h2{
+    page-break-after: 10px;
+}
+#company_info dl{
+    background: indigo;
+    border: 1px solid #dddddd;
+    border-top: 0;
+    padding-left: 10px;
+}
+
+#company_info dl dt,
+#company_info dl dd{
+    padding: 10px;
+    border-top: 1px solid #dddddd;
+}
+
+#company_info dl dt{
+    width: 12em;
+    float: left;
+    clear: both;
+    font-weight: bold;
+    color: white;
+}
+
+#company_info dl dd{
+    background-color: #ffffff;
+    border-left: 1px solid #dddddd;
+    margin-left: 13em;
+}

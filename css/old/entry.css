@@ -1,0 +1,178 @@
+@charset "utf-8";
+header h1 {
+    color: chartreuse;
+    text-align:center;
+    float: center;
+}
+
+header {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header a button{
+    color: black;
+    background-color: chartreuse;
+    display: block;
+    margin: 0 0 0 auto;
+}
+#top_image{
+    text-align: center;
+}
+
+#global{
+    width: 980px;
+    clear: both;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+#global ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#global ul li{
+    width: 243px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#global ul li a{
+    display: block;
+    padding: 16px;
+    background-color: chartreuse;
+    color: black;
+    text-decoration: none;
+}
+
+#global ul li.current a{
+    background-color: darkgreen;
+}
+
+#global ul li a:hover{
+    background-color: darkgreen;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main{
+    width: 980px;
+    float: left;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer #footer_nav{
+    background-color: chartreuse;
+    padding: 0;
+}
+
+footer #footer_nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer #footer_nav li{
+    display: inline;
+    border-left: solid 1px;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: smaller;
+    color: white;
+}
+
+footer #footer_nav li:last-child{
+    border-right: solid 1px;
+    padding: 0 8px;
+}
+
+footer small{
+    display: block;
+    padding: 8px 0;
+    color: white;
+}
+
+#breadcrumb{font-size: smaller;}
+
+#breadcrumb ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#breadcrumb ol li{display: inline;}
+
+#breadcrumb ol li::after{
+    content: ">";
+    padding-right: 7px;
+}
+
+#breadcrumb ol li:last-child::after{content: none;}
+
+#wrapper h1{
+    text-align: center;
+}
+
+#main dl{
+    background: chartreuse;
+    border: 1px solid black;
+    border-top: 0;
+}
+
+#main dl dt,
+#main dl dd{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+#main dl dt{
+    width: 12em;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+
+#main dl dd{
+    background-color: #ffffff;
+    border-left: 1px solid #dddddd;
+    margin-left: 13em;
+}
+
+.must {color: red;}
+
+#main #name{
+    width: 15em;
+    padding: 3px;
+}
+
+#main #email{
+    width: 25em;
+    padding: 3px;
+}
+
+#main #pr{
+    width: 56em;
+    height: 30em;
+}
+
+#main #check_button{
+    text-align: center;
+    font-size: 20px;
+}
+
+#main #cancel_button{
+    display: block;
+    margin: 0 0 0 auto;
+    padding: 1px;
+}

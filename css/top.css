@@ -1,0 +1,25 @@
+#wrapper article h1 {
+  font-family: serif;
+  font-style: italic;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 1000;
+}
+#wrapper article h1 #titlte{
+  background: -webkit-linear-gradient(top, rgb(75, 110, 130) 0%, rgb(75, 80, 130) 50%, rgb(75, 30, 130) 51%, indigo 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+#wrapper article h1 #subtitlte{
+  background: -webkit-linear-gradient(top, rgb(75, 110, 130) 0%, rgb(75, 80, 130) 50%, rgb(75, 30, 130) 51%, indigo 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+#wrapper #main{
+  list-style: none;
+  padding-left: 10px;
+}

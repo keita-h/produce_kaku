@@ -1,0 +1,63 @@
+#contactform dl{
+    background: chartreuse;
+    border: 1px solid #dddddd;
+    border-top: 0;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactform dl dt,
+#contactform dl dd{
+    padding: 10px;
+    border-top: 1px solid #dddddd;
+}
+
+#contactform dl dt{
+    width: 12em;
+    float: left;
+    clear: both;
+    font-weight: bold;
+}
+
+#contactform dl dd{
+    background-color: #ffffff;
+    border-left: 1px solid #dddddd;
+    margin-left: 13em;
+}
+
+.must {color: red;}
+
+#contactform #name{
+    width: 15em;
+    padding: 3px;
+}
+
+#contactform #email{
+    width: 25em;
+    padding: 3px;
+}
+
+#contactform #sns{
+    width: 25em;
+    padding: 3px;
+}
+
+#contactform #acaunt{
+    width: 25em;
+    padding: 3px;
+}
+
+#contactform #detail{
+    width: 36em;
+    height: 15em;
+}
+
+#contactform #submit_button{
+    text-align: center;
+    font-size: 20px;
+}
+
+#contactform #retrun_button{
+    text-align: center;
+}

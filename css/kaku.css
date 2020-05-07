@@ -1,0 +1,44 @@
+#main section #slideshow{
+    width:  510px;
+    height: 310px;
+}
+
+#main section #slideshow img{
+    position: absolute;
+    z-index: 8;
+    opacity: 0.0;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+#main section #slideshow{
+    text-align: center;
+}
+
+#main section #slideshow img.active{
+    z-index: 10;
+    opacity: 1.0;
+}
+
+#main section #slideshow img.last-active{
+    z-index: 9;
+}
+
+#wrapper article #main h1{
+    text-align: center;
+    color: indigo;
+    text-decoration: underline;   
+    font-size: 30px;
+}
+#wrapper article #main section h2{
+    color: indigo;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#main dt{
+    color: indigo;
+    font-weight: bolder;
+    font-size: 20px;
+}
