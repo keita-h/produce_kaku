@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+    background-image: url("3409829.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    color: indigo;
+    text-align:center;
+    float: center;
+}
+
+header {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header a button{
+    color: white;
+    background-color: indigo;
+    display: block;
+    margin: 0 0 0 auto;
+}
+#top_image{
+    text-align: center;
+}
+
+#global{
+    width: 980px;
+    clear: both;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+#global ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#global ul li{
+    width: 243px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#global ul li a{
+    display: block;
+    padding: 16px;
+    background-color: indigo;
+    color: white;
+    text-decoration: none;
+}
+
+#global ul li.current a{
+    background-color: rgb(48, 1, 82);
+}
+
+#global ul li a:hover{
+    background-color: rgb(48, 1, 82);
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(212, 212, 212, 0.55);
+    /* background-color: blue; */
+}
+
+#main{
+    width: 760px;
+    float: left;
+}
+
+#sidebar{
+    width: 210px;
+    float: right;
+}
+
+#side_banner h2{
+    background-color: black;
+    color: gold;
+    padding: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#side_banner ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer #footer_nav{
+    background-color: rgb(48, 1, 82);
+    padding: 0;
+}
+
+footer #footer_nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer #footer_nav li{
+    display: inline;
+    border-left: solid 1px;
+    margin-left: 8px;
+    padding-left: 8px;
+    font-size: smaller;
+    color: white;
+}
+
+footer #footer_nav li:last-child{
+    border-right: solid 1px;
+    padding: 0 8px;
+}
+
+footer small{
+    display: block;
+    padding: 8px 0;
+    color: white;
+}
+
+#breadcrumb{font-size: smaller;}
+
+#breadcrumb ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#breadcrumb ol li{display: inline;}
+
+#breadcrumb ol li::after{
+    content: ">";
+    padding-right: 7px;
+}
+
+#breadcrumb ol li:last-child::after{content: none;}
